@@ -22,6 +22,7 @@ The following advanced user stories are optional:
 ## Wordpress Exploits
 
 1. WordPress 4.7 - User Information Disclosure via REST API
+   * Description: The WordPress REST API provides a list of the users on a WordPress website without someone registering or having an account. Once a username is given, an attacker can use techniques such as Brute Force and Dictionary Attacks to guess the password.
    * Vulnerabilities: User Enumeration
    * Affected Version: WordPress 4.7
    * Fixed Version: 4.7.1
