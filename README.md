@@ -25,10 +25,10 @@ The following advanced user stories are optional:
    * Vulnerabilities: User Enumeration
    * Affected Version: WordPress 4.7
    * Fixed Version: 4.7.1
+   * Source Code: https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60
    * Steps to recreate exploit: Change to WordPress Version 4.7. Go to example.com/wp-json/wp/v2/users, replacing example with desired WordPress site. Observe the userid, username, gravatar hash, and website URL.
    <img src='Week7Exploit1.gif' width='' alt='Video Walkthrough' />
    GIF created with [LiceCap](http://www.cockos.com/licecap/).
-   * Source Code: https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60
 
 ## Video Walkthrough
 
