@@ -32,7 +32,7 @@ The following advanced user stories are optional:
    GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 2. WordPress 3.3-4.7.4 - Large File Upload Error XSS
-   * Description:
+   * Description: There is an XSS vulnerability when attempting to upload very large files, because the error message does not properly restrict the presentation of the filename. This allows an attacker to inject a malicious script into the filename.
    * Vulnerabilities: Cross-Site Scripting (XSS)
    * Affected Versions: WordPress 3.3 - 4.7.4
    * Fixed Version: WordPress 4.7.5
@@ -40,18 +40,10 @@ The following advanced user stories are optional:
    * Steps to recreate exploit: Go to your WordPress site, click on Media > Add New. Drag or upload a picture that has a size greater than 2 MB. Observe the alert box saying the image is too large.
    <img src='Week7Exploit2.gif' width='' alt='Video Walkthrough' />
    GIF created with [LiceCap](http://www.cockos.com/licecap/).
-   
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='Week6Lab.gif' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-This has been one of the most interesting labs.
+This assignment was a bit challenging but allowed us to explore all the vulnerabilities we learned through a real world example.
 
 ## License
 
