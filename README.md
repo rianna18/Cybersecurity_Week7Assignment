@@ -22,7 +22,7 @@ The following advanced user stories are optional:
 ## Wordpress Exploits
 
 1. WordPress 4.7 - User Information Disclosure via REST API
-   * Vulnerabilities: User Enumeration
+* Vulnerabilities: User Enumeration
    
 
 ## Video Walkthrough
