@@ -25,12 +25,22 @@ The following advanced user stories are optional:
    * Description: The WordPress REST API provides a list of the users on a WordPress website without someone registering or having an account. Once a username is given, an attacker can use techniques such as Brute Force and Dictionary Attacks to guess the password.
    * Vulnerabilities: User Enumeration
    * Affected Version: WordPress 4.7
-   * Fixed Version: 4.7.1
+   * Fixed Version: WordPress 4.7.1
    * Source Code: https://github.com/WordPress/WordPress/commit/daf358983cc1ce0c77bf6d2de2ebbb43df2add60
    * Steps to recreate exploit: Change to WordPress Version 4.7. Go to example.com/wp-json/wp/v2/users, replacing example with desired WordPress site. Observe the userid, username, gravatar hash, and website URL.
    <img src='Week7Exploit1.gif' width='' alt='Video Walkthrough' />
    GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+2. WordPress 3.3-4.7.4 - Large File Upload Error XSS
+   * Description:
+   * Vulnerabilities: Cross-Site Scripting (XSS)
+   * Affected Versions: WordPress 3.3 - 4.7.4
+   * Fixed Version: WordPress 4.7.5
+   * Source Code: https://github.com/WordPress/WordPress/commit/8c7ea71edbbffca5d9766b7bea7c7f3722ffafa6
+   * Steps to recreate exploit: Go to your WordPress site, click on Media > Add New. Drag or upload a picture that has a size greater than 2 MB. Observe the alert box saying the image is too large.
+   <img src='Week7Exploit2.gif' width='' alt='Video Walkthrough' />
+   GIF created with [LiceCap](http://www.cockos.com/licecap/).
+   
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
